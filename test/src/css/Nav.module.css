@@ -1,14 +1,15 @@
 /* Nav */
 .nav {
     grid-area: nav;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
+    border-radius: 10px;
 }
 
 .nav__item {
-    margin: 10px 0;
+    padding: 8px 10px;
+    border-radius: 10px;
 }
-
-a {
-    color: white;
+.nav__item:hover {
+    background-color: rgb(240, 240, 240);
 }
