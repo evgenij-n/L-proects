@@ -9,12 +9,12 @@ export function Main() {
                 <div className={styleMain.user__wrap}>
                     <img className={styleMain.user__avatar} src="avatar.svg" alt="" />
                     <div>
-                        <h1 className={styleMain.user__name}>Евгений</h1>
+                        <h1 className={styleMain.user__name}>Evgenij</h1>
                         <ul className={styleMain.user__info}>
-                            <li className={styleMain.user__info__list}><strong>День рождения:</strong> 1 нобяря</li>
-                            <li className={styleMain.user__info__list}><strong>Город:</strong> Орёл</li>
-                            <li className={styleMain.user__info__list}><strong>Образование:</strong>Бакалавр</li>
-                            <li className={styleMain.user__info__list}><strong>Веб-сайт:</strong> - </li>
+                            <li className={styleMain.user__info__list}><strong>Birthday:</strong> November 1</li>
+                            <li className={styleMain.user__info__list}><strong>City:</strong> Orel</li>
+                            <li className={styleMain.user__info__list}><strong>Education:</strong> Bachelor</li>
+                            <li className={styleMain.user__info__list}><strong>Website:</strong> - </li>
                         </ul>
                     </div>
                 </div>

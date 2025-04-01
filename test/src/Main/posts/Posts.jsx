@@ -10,7 +10,8 @@ export function Posts() {
                     <textarea></textarea>
                     <button>Отправить</button>
                 </div>
-                <Post />
+                <Post message='Doloribus dolor provident maxime asperiores, libero culpa excepturi nulla.'/>
+                <Post message='Libero culpa excepturi nulla, reprehenderit nisi unde perspiciatis, illo quo eveniet quidem est dignissimos ad nihil at.'/>
             </div>
         </>
     )

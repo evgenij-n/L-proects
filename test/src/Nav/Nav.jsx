@@ -5,11 +5,11 @@ export function Nav(){
         <>
         <nav className={styleNav.nav}>
           <ul>
-            <li className={styleNav.nav__item}><a href="#">Профиль</a></li>
-            <li className={styleNav.nav__item}><a href="#">Сообщения</a></li>
-            <li className={styleNav.nav__item}><a href="#">Новости</a></li>
-            <li className={styleNav.nav__item}><a href="#">Музыка</a></li>
-            <li className={styleNav.nav__item}><a href="#">Настройки</a></li>
+            <li className={styleNav.nav__item}><a href="#">Profile</a></li>
+            <li className={styleNav.nav__item}><a href="#">Messages</a></li>
+            <li className={styleNav.nav__item}><a href="#">News</a></li>
+            <li className={styleNav.nav__item}><a href="#">Music</a></li>
+            <li className={styleNav.nav__item}><a href="#">Settings</a></li>
           </ul>
         </nav>
         </>
