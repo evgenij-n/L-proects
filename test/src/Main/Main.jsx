@@ -1,4 +1,4 @@
-import styleMain from "../css/Main.module.css";
+import styleMain from "./Main.module.css";
 
 export function Main() {
     return (
