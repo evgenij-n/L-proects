@@ -7,6 +7,7 @@ export function Post(props) {
             <div className={stylePost.postWrap__public}>
                 <img className={stylePost.postWrap__avatar} src="avatar.svg" alt="" />
                 <div className={stylePost.postWrap__post}>{props.message}</div>
+                <div>❤️ {props.like}</div>
             </div>
         </>
     )
