@@ -1,0 +1,14 @@
+/* Nav */
+.nav {
+    grid-area: nav;
+    background-color: gray;
+    padding: 10px;
+}
+
+.nav__item {
+    margin: 10px 0;
+}
+
+a {
+    color: white;
+}

@@ -1,0 +1,10 @@
+/* Header */
+.header {
+    grid-area: header;
+    background-color: gray;
+  }
+  
+  .header__logo {
+    width: 50px;
+  }
+  
