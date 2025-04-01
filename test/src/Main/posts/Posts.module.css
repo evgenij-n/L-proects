@@ -1,0 +1,33 @@
+.postWrap {
+  padding: 20px;
+}
+
+textarea {
+  width: 500px;
+  height: 100px;
+  resize: none;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+button {
+  display: block;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.postWrap__public {
+  display: flex;
+  align-items: center;
+}
+
+.postWrap__avatar {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.postWrap__post {
+  margin-top: 10px;
+  width: 500px;
+  padding: 20px;
+}

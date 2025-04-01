@@ -1,4 +1,5 @@
 import styleMain from "./Main.module.css";
+import { Posts } from "./posts/Posts";
 
 export function Main() {
     return (
@@ -17,17 +18,7 @@ export function Main() {
                         </ul>
                     </div>
                 </div>
-                <div className={styleMain.postWrap}>
-                    <h2>Мои посты</h2>
-                    <div className={styleMain.postWrap__enter__post}>
-                        <textarea></textarea>
-                        <button>Отправить</button>
-                    </div>
-                    <div className={styleMain.postWrap__public}>
-                        <img className={styleMain.postWrap__avatar} src="avatar.svg" alt="" />
-                        <div className={styleMain.postWrap__post}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor provident maxime asperiores, libero culpa excepturi nulla, reprehenderit nisi unde perspiciatis, illo quo eveniet quidem est dignissimos ad nihil at.</div>
-                    </div>
-                </div>
+                <Posts />
             </main>
         </>
     )
