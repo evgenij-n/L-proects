@@ -7,7 +7,7 @@ import {Nav} from './components/Nav';
 function App() {
   return (
     <>
-      <div className='grid-wrap'>
+      <div className='gridWrap'>
 
         <Header />
 

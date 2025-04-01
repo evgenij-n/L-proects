@@ -13,57 +13,7 @@ body {
   color: white;
 }
 
-a {
-  color: white;
-}
-
-.logo {
-  width: 50px;
-}
-
-.user-banner {
-  width: 100%;
-  height: 100px;
-}
-
-.user-avatar {
-  width: 150px;
-}
-.user-wrap {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-}
-.user-info {
-  width: 300px;
-}
-textarea{
-  width: 500px;
-  height: 100px;
-  resize: none;
-  overflow: auto;
-}
-.post-wrap {
-  padding: 20px;
-}
-.post {
-  margin-top: 10px;
-  width: 500px;
-  padding: 20px;
-  color: black;
-}
-.user-avatar-post {
-  width: 50px;
-}
-.public-post-wrap {
-  display: flex;
-  align-items: center;
-}
-button {
-  display: block;
-}
-.grid-wrap {
+.gridWrap {
   display: grid;
 
   grid-template-areas: 
@@ -74,15 +24,83 @@ button {
   gap: 10px;
 }
 
+a {
+  color: white;
+}
+
+/* Header */
 .header {
   grid-area: header;
   background-color: gray;
 }
+
+.header__logo {
+  width: 50px;
+}
+
+/* Nav */
 .nav{
   grid-area: nav;
   background-color: gray;
 }
-.main{
+
+/* Main */
+.user {
   grid-area: main;
   background-color: gray;
+}
+
+.user__banner {
+  width: 100%;
+  height: 100px;
+}
+
+.user__wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.user__avatar {
+  width: 150px;
+}
+
+.user__name {
+  font-size: 35px;
+}
+
+.user__info {
+  width: 300px;
+}
+
+.postWrap {
+  padding: 20px;
+}
+
+textarea{
+  width: 500px;
+  height: 100px;
+  resize: none;
+  overflow: auto;
+}
+
+button {
+  display: block;
+}
+
+.postWrap__public {
+  display: flex;
+  align-items: center;
+}
+
+.postWrap__avatar {
+  width: 50px;
+}
+
+.postWrap__post {
+  margin-top: 10px;
+  width: 500px;
+  padding: 20px;
+  color: black;
 }
