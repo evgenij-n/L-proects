@@ -16,10 +16,16 @@ body {
 .gridWrap {
   display: grid;
 
-  grid-template-areas: 
-  "header header "
-  "nav main ";
+  grid-template-areas:
+    "header header "
+    "nav main ";
   grid-template-rows: auto 1fr;
   grid-template-columns: 2fr 10fr;
   gap: 10px;
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 }

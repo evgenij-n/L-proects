@@ -4,7 +4,7 @@ import { Posts } from "./posts/Posts";
 export function Main() {
     return (
         <>
-            <main className={styleMain.user}>
+            <main className='main'>
                 <img className={styleMain.user__banner} src="banner.svg" alt="" />
                 <div className={styleMain.user__wrap}>
                     <img className={styleMain.user__avatar} src="avatar.svg" alt="" />

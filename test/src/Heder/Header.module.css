@@ -1,14 +1,23 @@
 /* Header */
 .header {
-    grid-area: header;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+  grid-area: header;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.header__logo {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  width: 50px;
+  animation: logo 10s linear infinite;
+}
+
+@keyframes logo {
+  0% {
+    transform: rotate(360deg);
   }
-  
-  .header__logo {
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    width: 50px;
+  100% {
+    transform: rotate(0deg);
   }
-  
+}

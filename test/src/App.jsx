@@ -1,21 +1,36 @@
 import './App.css';
-import {Header} from './Heder/Header';
-import {Main} from './Main/Main';
-import {Nav} from './Nav/Nav';
+import { Dialog } from './Dialog/Dialog';
+import { Header } from './Heder/Header';
+import { Main } from './Main/Main';
+import { Nav } from './Nav/Nav';
+import { News } from './News/News';
+import { Music } from './Music/Music';
+import { Settings } from './Settings/Settings';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
-function App() {
+function App(props) {
   return (
     <>
-      <div className='gridWrap'>
+      <BrowserRouter>
+        <div className='gridWrap'>
 
-        <Header />
+          <Header />
 
-        <Nav />
+          <Nav />
 
-        <Main />
+          <div className='main'>
+          <Routes>
+            <Route path="/dialog" element={<Dialog />} />
+            <Route path="/main" element={<Main />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/music" element={<Music />} />
+            <Route path="/settings" element={<Settings />} />
+          </Routes>
+          </div>
 
-      </div>
+        </div>
+      </BrowserRouter>
     </>
   )
 }
