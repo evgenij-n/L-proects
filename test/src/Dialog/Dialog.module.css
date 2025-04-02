@@ -1,0 +1,8 @@
+.dialog {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 2fr 10fr;
+}
+.user {
+    margin: 15px 0;
+}

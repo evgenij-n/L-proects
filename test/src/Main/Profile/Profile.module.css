@@ -1,0 +1,30 @@
+.user__banner {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.user__wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.user__avatar {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.user__name {
+  font-size: 35px;
+}
+
+.user__info {
+  width: 300px;
+}
+
+.user__info__list {
+  margin: 5px 0;
+}
