@@ -4,9 +4,9 @@ export function Post(props) {
 
     return (
         <>
-            <div className={stylePost.postWrap__public}>
+            <div className={stylePost.postWrap__post}>
                 <img className={stylePost.postWrap__avatar} src="avatar.svg" alt="" />
-                <div className={stylePost.postWrap__post}>{props.message}</div>
+                {props.message}
             </div>
         </>
     )

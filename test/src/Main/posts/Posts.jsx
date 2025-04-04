@@ -6,7 +6,11 @@ export function Posts() {
     let PostData = [
         { id: 1, message: 'Lorem ipsumvo consequuntur odit tempora luptatibus laborum esse dolore, ullam, dolore, itaque odio? laborum esse dolore, itaque odio?' },
         { id: 2, message: 'Dignissimos sequi temporibus dolorem nisi! Inventore, eligendi consequuntur odit tempora eaque natus ex voluptatibus laborum esse dolore, itaque odio?' },
+        { id: 3, message: 'Dolorem nisi! Inventore, eligendi consequuntur odit tempora eaque natus ex voluptatibus laborum esse dolore, itaque odio?' },
+        { id: 4, message: 'Sequi temporibus dolorem nisi! Dignissimos sequi temporibus dolorem nisi! Inventore, eligendi consequuntur odit tempora eaque natus ex voluptatibus laborum esse dolore, itaque odio?' },
     ]
+
+    let PostEl = PostData.map(post => <Post message={post.message} id={post.id}/> )
 
     return (
         <>
@@ -16,8 +20,7 @@ export function Posts() {
                     <textarea></textarea>
                     <button>Отправить</button>
                 </div>
-                <Post message={PostData[0].message} id={PostData[0].id}/>
-                <Post message={PostData[1].message} id={PostData[1].id}/>
+                {PostEl}
             </div>
         </>
     )

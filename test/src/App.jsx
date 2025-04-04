@@ -14,11 +14,8 @@ function App(props) {
     <>
       <BrowserRouter>
         <div className='gridWrap'>
-
           <Header />
-
           <Nav />
-
           <div className='main'>
           <Routes>
             <Route path="/dialog" element={<Dialog />} />
@@ -28,7 +25,6 @@ function App(props) {
             <Route path="/settings" element={<Settings />} />
           </Routes>
           </div>
-
         </div>
       </BrowserRouter>
     </>
